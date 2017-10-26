@@ -1,0 +1,336 @@
+/*
+font-family: 'Droid Serif', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x:hidden;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#menu {
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#menu li span {
+    right: 0;
+}
+
+#menu.klasaMenu {
+    background-color: aliceblue;
+    transition: .5s;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+
+#menu a {
+    color: aliceblue;
+}
+
+#menu .toggle,
+[id=drop] {
+    display: none;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/header/pictures_on_the_wall.jpg');
+    background-size: cover;
+}
+
+.main-header-text {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 160px;
+    color: aliceblue;
+}
+
+.main-header-text {
+    font-family: 'Droid Serif', serif;
+}
+
+.btn btn-info {
+    background-color: #0ED8D6;
+    border: 1px solid #0ED8D6;
+    color: #FFFFFF;
+}
+
+.btn btn-info:hover {
+    background-color: #FFFFFF;
+    color: #0ED8D6;
+}
+
+#menu.klasaMenu {
+    background-color: aliceblue;
+    transition: .5s;
+}
+
+#menu.klasaMenu a {
+    color: #0ed8d6;
+}
+
+#menu ul>li a:hover {
+    text-decoration: underline;
+}
+
+#menu .toggle,
+[id=drop] {
+    display: none;
+}
+
+#Services {
+    text-align: center;
+}
+
+#Services p {
+    margin: 50px 20px 30px;
+}
+
+#Services i {
+    background-color: #0ed8d6;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 30px;
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#Services i:hover {
+    color: #0ed8d6;
+    text-decoration: none;
+    transform: rotate(360deg);
+    transition: all 0.7s;
+    background-color: aliceblue;
+}
+
+#Portfolio {
+    text-align: center;
+    background: #f5f5f5;
+}
+
+#Portfolio .img {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all .4s;
+}
+
+#Portfolio #img1 {
+    background-image: url(/img/portfolio/box_of_cookies.jpg);
+}
+
+#Portfolio #img2 {
+    background-image: url(/img/portfolio/chaotic_paint.jpg);
+}
+
+#Portfolio #img3 {
+    background-image: url(/img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#Portfolio #img4 {
+    background-image: url(/img/portfolio/child_with_blue_paint.jpg);
+}
+
+#Portfolio #img5 {
+    background-image: url(/img/portfolio/house_with_blue_doors.jpg);
+}
+
+#Portfolio #img6 {
+    background-image: url(/img/portfolio/typing_on_laptop.jpg);
+}
+
+#Portfolio .temp .inner-overflow {
+    overflow: hidden;
+    height: 350px;
+}
+
+#Portfolio .temp .inner-overflow .img .maska i {
+    color: #FFFFFF;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+#Portfolio .temp .inner-overflow .img .maska {
+    background-color: rgba(14, 216, 214, 0.85);
+    height: 100%;
+    opacity: 0;
+    transition: all .4s;
+    position: relative;
+}
+
+#Portfolio .temp .inner-overflow .img:hover {
+    transform: scale(2);
+}
+
+#Portfolio .temp .inner-overflow .img:hover .maska {
+    opacity: 1;
+}
+
+#Meet_our_team {
+    text-align: center;
+}
+
+#Meet_our_team .row {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#Meet_our_team p {
+    padding-bottom: 100px;
+}
+
+#Meet_our_team .fotki {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#Meet_our_team #foto1 {
+    background-image: url(/img/team/man-1.jpg);
+}
+
+#Meet_our_team #foto2 {
+    background-image: url(/img/team/man-2.jpg);
+}
+
+#Meet_our_team #foto3 {
+    background-image: url(/img/team/woman-1.jpg);
+}
+
+.social {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.social .fa {
+    padding: 10px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+}
+
+.social .fa:hover {
+    color: aliceblue;
+    background-color: #0ed8d6;
+}
+
+#Contact_US h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Contact_US {
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(/img/footer/world-map.jpg);
+    text-align: center;
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.text-down {
+    margin: 100px;
+}
+
+#Contact_US #fro {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: slategray;
+}
+
+#Contact_US #message {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: slategray;
+}
+
+#Contact_US button {
+    background-color: rgb(14, 216, 214);
+    border: rgb(14, 216, 214);
+    color: #fff;
+    margin: 30px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#Contact_US button:active {
+    background-color: #fff;
+    border: #fff;
+    color: rgb(14, 216, 214);
+}
+
+#Policy {
+    padding: 0;
+}
+
+#Policy .social .fa {
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+}
+
+#Policy a.a {
+    color: black;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
